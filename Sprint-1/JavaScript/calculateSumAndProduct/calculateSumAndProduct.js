@@ -31,3 +31,7 @@ export function calculateSumAndProduct(numbers) {
     product: product,
   };
 }
+
+// The function has 2 loops, one for the sum and the other for the product.
+// we actually don't need to loop twice, we can do both in a single loop.
+// the time complexity now is 0(n) and the space complexity is O(1).
